@@ -1,7 +1,7 @@
-import FlappyFish from "@/components/FlappyFish";
+import MemoryGame from "@/components/MemoryGame";
 
 const Index = () => {
-  return <FlappyFish />;
+  return <MemoryGame />;
 };
 
 export default Index;
