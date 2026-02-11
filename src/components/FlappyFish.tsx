@@ -1,10 +1,10 @@
 import React, { useRef, useEffect, useState, useCallback } from "react";
 
-const GRAVITY = 0.35;
-const JUMP_FORCE = -6.5;
-const PIPE_WIDTH = 60;
-const PIPE_GAP = 150;
-const PIPE_SPEED_BASE = 2.5;
+const GRAVITY = 0.25;
+const JUMP_FORCE = -5.5;
+const PIPE_WIDTH = 55;
+const PIPE_GAP = 200;
+const PIPE_SPEED_BASE = 1.8;
 const FISH_SIZE = 30;
 const BUBBLE_COUNT = 15;
 
