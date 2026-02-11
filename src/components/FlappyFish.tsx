@@ -1,7 +1,7 @@
 import React, { useRef, useEffect, useState, useCallback } from "react";
 
 const GRAVITY = 0.25;
-const JUMP_FORCE = -6.2;
+const JUMP_FORCE = -7.0;
 const PIPE_WIDTH = 55;
 const PIPE_GAP = 200;
 const PIPE_SPEED_BASE = 1.8;
@@ -371,7 +371,7 @@ const FlappyFish: React.FC = () => {
 
         // Pipes
         g.frameCount++;
-        const spawnInterval = Math.max(100, 150 - g.score * 2);
+        const spawnInterval = Math.max(130, 190 - g.score * 2);
         if (g.frameCount % spawnInterval === 0) {
           const minTop = 60;
           const maxTop = h - PIPE_GAP - 90;
